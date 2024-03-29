@@ -1,0 +1,25 @@
+{
+    "name": "tienvanbui/province",
+    "description": "get all latest information of 47 province in japan",
+    "autoload": {
+        "psr-4": {
+            "TienVanBui\\Province\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tienvanbui",
+            "email": "tienvanbui1982001@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TienVanBui\\Province\\ProvinceJapanServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
